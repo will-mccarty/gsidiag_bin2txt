@@ -1,6 +1,8 @@
 gsidiag_bin2txt
 ===============
 
+THIS DISTRIBUTION HAS BEEN INCORPORATED INTO PyRadmon, [available here](https://github.com/alberthdev/pyradmon).  This repo is out-of-date.
+
 Overview
 --------
 This is a simple tool for generating statistics table for Gridpoint Statistical Interpolation (GSI) radiance diagnostic (hereafter 'diag') files
