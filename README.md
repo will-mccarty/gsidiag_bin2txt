@@ -19,11 +19,17 @@ and it will return a diagfile.txt.  Some running options are available via the f
 
 ### Example 
 Included with the package is one example file.  Once you have an executable, you can test it by running:
+
 `./gsidiag_bin2txt.x example_data/x0014_so14.diag_amsua_n18_ges.20140201_00z.bin`
+
 This should generate:
+
 `example_data/x0014_so14.diag_amsua_n18_ges.20140201_00z.txt`
+
 After this is generated, you can compare against:
+
 `example_data/x0014_so14.diag_amsua_n18_ges.20140201_00z.txt.OUT`
+
 and hopefully you should get a zero-diff result.  The .OUT file is included with the distribution.
 
 Contact Info
