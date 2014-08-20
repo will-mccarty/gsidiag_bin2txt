@@ -17,7 +17,16 @@ Once you are compiled, you can simply type:
 `./gsidiag_bin2txt.x diagfile.bin`
 and it will return a diagfile.txt.  Some running options are available via the file's namelist, and you should read gsidiag_bin2txt.nl.README for information on that.
 
+### Example 
+Included with the package is one example file.  Once you have an executable, you can test it by running:
+`./gsidiag_bin2txt.x example_data/x0014_so14.diag_amsua_n18_ges.20140201_00z.bin`
+This should generate:
+`example_data/x0014_so14.diag_amsua_n18_ges.20140201_00z.txt`
+After this is generated, you can compare against:
+`example_data/x0014_so14.diag_amsua_n18_ges.20140201_00z.txt.OUT`
+and hopefully you should get a zero-diff result.  The .OUT file is included with the distribution.
+
 Contact Info
 ------------
-This was written by Will McCarty at the GMAO/GSFC.  If you have any questions, feel free to email at his NASA address ([available here](http://gmao.gsfc.nasa.gov/personnel.php)).  
+This was written by Will McCarty of the Global Modeling and Assimilation Office at NASA Goddard Space Flight Center.  If you have any questions, feel free to contact him via the information [available here](http://gmao.gsfc.nasa.gov/personnel.php).  
 
